@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SysadmInCrypto
-email: your-email@example.com
+title: SysAdmInCrypto
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Inofs blockchain, cryptos & NFT en français
   pour les GNU/Linux Sysadmins francophones
@@ -29,8 +29,8 @@ twitter_username: nicosz15
 github_username: sznicolas
 
 # Build settings
-theme: minima
-#theme: hacker
+#theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 

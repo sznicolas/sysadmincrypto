@@ -28,6 +28,11 @@
     <footer>
       <div class="container">
         <a href="{{site.baseurl}}/about">about</a>
+	<a href="{{ "/feed.xml" | relative_url }}">rss</a>
+        {% if page.name == "about.markdown" %}
+          {% assign social = site.social %}
+          <a href="https://twitter.com/{{ social.twitter }}">Twitter</a>
+        {% endif %}
       </div>
     </footer>
   </body>

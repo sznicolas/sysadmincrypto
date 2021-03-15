@@ -21,8 +21,8 @@
 title: SysAdmInCrypto
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Inofs blockchain, cryptos & NFT en français
-  pour les GNU/Linux Sysadmins francophones
+  Infos blockchain, cryptos & NFT en français
+  pour les Sysadmins GNU/Linux francophones et autres crypto enthousiastes.
 baseurl: "/sysadmincrypto" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nicosz15
@@ -33,6 +33,12 @@ github_username: sznicolas
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

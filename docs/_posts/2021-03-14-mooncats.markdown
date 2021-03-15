@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Le Grand Sauvetage des Chats Lunaires"
+date:   2021-03-14 23:15:39 +0200
+categories: NFT mooncats
+---
+
+![un Chat Lunaire]({{site.baseurl}}/assets/img/mooncat_lambda.png){: width="96" }
+Il est parfois des trésors enfouis, oubliés depuis bien longtemps sous les décombres de l'activité humaine, qui ressurgissent soudain en de moments opportuns. C'est le cas des MoonCats, des NFT primitifs de première génération. *Les premiers Chats d'internet forgés dans une blockchain*, ils en héritent de toutes ses qualités. Oubliés sur la Lune il y a bien longtemps, le temps que plusieurs millions de blocks Ethereum soient minés, leur forge vient d'être retrouvée, en ce début de l'ère du NFT.
+
+
+Tout commence avec [l'annonce de ETHoard de la découverte de Chats](https://twitter.com/ETHoard/status/1370268088067792899) coincés sur la Lune qui attendent d'être sauvés ! La nouvelle se répand comme une traînée de poudre. S'ensuit alors la ruée vers le Grand Sauvetage des Chats Lunaires, et il ne faudra que quelques heures pour que tous soient sauvés.
+
+Techniquement, il s'agit d'un Smart Contract sur Ethereum. Le site web faisant l'interface avec le contrat fonctionnait bien, mais la connexion avec Metamask n'est plus opérationnelle.
+<a href="https://mooncatrescue.com/scan" rel="Site original">![site original]({{site.baseurl}}/assets/img/mooncat_found.png)</a>
+
+Les Sauveteurs ont alors activé le contrat directement, le site permettant de générer une *seed* qui sera vérifiée lors de l'appel à la fonction `rescueCat(bytes32 seed)`.
+![]({{site.baseurl}}/assets/img/mooncat_SC_rescueCat.png)
+> Le [Smart Contract](https://etherscan.io/address/0x60cd862c9c687a9de49aecdc3a99b74a4fc54ab6) a été [créé](https://etherscan.io/tx/0x79d48c41b99f0ac8f735dbf4d048165542576862df2b05a80be9a4dbe233a623) le 09 août 2017 sur la chaîne Ethereum.
+> Ce contrat ayant été déployé avant la définition de l'ERC 721, il n'a pas les méthodes (fonctions) standards qui permettent le transfert sur les places de marché actuelles. 
+
+Quelques heures plus tard, [JR_Kunz propose un contrat permettant de wrapper les MoonCats](https://twitter.com/RJ_Kunz/status/1370508875598807041)
+> [Smart Contract MoonCatsWrapped](https://etherscan.io/address/0x7c40c393dc0f283f318791d746d894ddd3693572#writeContract)
+
+Grossièrement, ce _Wrapper_ permet de _transformer_ un jeton en un autre, ici un ERC20 en ERC721. Nous regarderons de plus près ce qui se passe exactement dans un prochain billet.
+
+Grâce à ce _wrapper_, les MoonCats ont pu arriver sur les places de marché, trouver de nouvelles familles d'accueil et s'étendre sur le réseau.
+
+## Attention aux arnaques
+Devant l'engouement pour ces petits êtres uniques, des aigrefins essayent de profiter de la crédulité des adopteurs potentiels.
+
+![scam]({{site.baseurl}}/assets/img/mooncat_opensea_scam.png)
+![sc adress]({{site.baseurl}}/assets/img/mooncat_opensea_caddr.png)
+
+Il est impératif de vérifier l'adresse du contrat avant de se lancer ! Vous ne voudriez pas adopter une fouine, n'est-ce pas ?
+

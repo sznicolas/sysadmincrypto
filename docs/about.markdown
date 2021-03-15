@@ -1,18 +1,9 @@
 ---
-layout: default
-title: About
+layout: about
+title: A propos
 permalink: /about/
 ---
 
-En construction...
+Sysadmin GNU/Linux et libriste convaincu, j'ai pour objectif de me former sur les environnements ayant a trait aux blockchains. Je consignerai ici mes notes plus ou moins techniques + tutoriels pour le lecteur francophone.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+`:wq`

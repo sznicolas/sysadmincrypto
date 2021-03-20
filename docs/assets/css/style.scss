@@ -2,6 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+// inspired by https://css-tricks.com/old-timey-terminal-styling/
+/* header {
+  background-image: repeating-linear-gradient(
+    rgba (255, 0, 0, 0.2),
+    rgba (255, 0, 0, 0.2) 1px,
+    rgba (255, 0, 0, 1) 5px,
+    rgba (255, 0, 0, 1) 5px
+  );
+  z-index: 1;
+}
+*/
 
 footer {
   font-size: 10px;

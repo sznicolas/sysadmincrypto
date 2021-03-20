@@ -27,8 +27,9 @@
     </div>
     <footer>
       <div class="container">
-        <a href="{{site.baseurl}}/about">about</a>
+        <a href="{{ site.baseurl }}/about">about</a>
 	<a href="{{ "/feed.xml" | relative_url }}">rss</a>
+        <a href="{{ site.baseurl }}/fiches">fiches</a>
         {% if page.name == "about.markdown" %}
           {% assign social = site.social %}
           <a href="https://twitter.com/{{ social.twitter }}">Twitter</a>

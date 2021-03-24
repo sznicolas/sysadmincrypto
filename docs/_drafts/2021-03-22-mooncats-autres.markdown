@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chats Lunaires: Le Périple, deuxième partie"
+title:  "Chats Lunaires : Bonus, Autres considérations"
 date:   2021-03-16 20:15:39 +0200
 categories: NFT mooncats etherscan smartcontracts
 ---

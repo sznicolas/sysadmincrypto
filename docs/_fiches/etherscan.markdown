@@ -1,7 +1,7 @@
 ---
 #layout: default
 layout: fiche
-categories: fiches
+categories: fiches etherscan
 permalink: fetherscan
 ---
 
@@ -17,5 +17,5 @@ Les adresses de contrat et de wallet on un format identique.
 Les onglets de l'entête peuvent différer selon le contenu de l'adresse.
 
 ## Interagir avec un contrat
-![]({{site.baseurl}}/assets/img/etherscan_contract_write.png)
+![]({{site.baseurl}}/assets/img/etherscan_contract_write.png)  
 Note : écrire un contrat engendre des frais de gas.

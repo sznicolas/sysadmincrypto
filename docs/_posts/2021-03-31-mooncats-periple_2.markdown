@@ -6,6 +6,7 @@ permalink: mooncatpartii
 categories: NFT mooncats etherscan smartcontracts
 ---
 
+![un Chat Lunaire]({{site.baseurl}}/assets/img/mooncat_rarible.png){: width="96" }
 Lors de notre [précédante exploration]({{ site.baseurl }}/mooncatparti), nous avions vu comment était généré un Chat Lunaire. A présent voyons comment fonctionne un _wrapper_, qui annonce emballer notre chat, le normaliser en NFT ERC721... Alors que la réalité est toute autre ! Il veut le cryogéniser et le cloner ! Voyez plus bas, la suite va vous étonner !
 
 ## Le NFT ERC721

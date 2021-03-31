@@ -1,12 +1,12 @@
 ---
 layout: fiche
-title:  "Utilisation pratique de zkSync"
+title:  "Tuto zkSync"
 date:   2021-03-22 13:15:39 +0200
-categories: fiches zksync
+categories: fiches zksync scalability_layer
 permalink: fzksync
 ---
 
-![logo gitcoin]({{site.baseurl}}/assets/img/logo_zkSync.png){: width="96" }
+![logo zkSync]({{site.baseurl}}/assets/img/logo_zkSync.png){: width="96" }
 
 _En cours de rédaction..._
 

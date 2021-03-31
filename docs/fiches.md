@@ -2,6 +2,7 @@
 layout: cat
 ---
 
+
   <h1>Fiches</h1>
   <ul>
     {% for fiche in site.fiches %}

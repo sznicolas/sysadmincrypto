@@ -32,7 +32,7 @@ _Ce qui suit n'est pas un conseil en investissement, juste quelques exemples. In
 
 Réfléchissez bien si les frais engendrés seront amortis sur la durée du dépôt que vous estimez.
 
-## Outils utiles
+## Outils
 - [zapper](https://zapper.fi) est un dashboard, mais bien plus ; il permet de [déposer ses fonds](https://zapper.fi/save), de les [staker](https://zapper.fi/stake), de swapper...
 - [vfat.tools](https://vfat.tools/) est un outil de farming.
 

@@ -82,5 +82,8 @@ Nous trouverons plusieurs agents de change sur Polygon, et divers systèmes fina
 
 Il est intéressant de régulièrement déposer ses gains dans les fermes de ComethSwap.
 
+## A suivre...
+[Quelques astuces]({{ site.baseurl }}/cometh_tips)
+
 ## services Cometh 
 [![Draft]({{site.baseurl}}/assets/img/cometh_apps.png){: width="600" }](https://app.cometh.io/)

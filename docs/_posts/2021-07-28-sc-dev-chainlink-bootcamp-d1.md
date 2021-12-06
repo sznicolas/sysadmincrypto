@@ -206,3 +206,5 @@ contract APIConsumer is ChainlinkClient {
 }
 {% endhighlight %}
 
+# Sources
+[Exercises Day 1](https://docs.google.com/document/d/1-2j17bRPusTBSeUOH9_1VbL2YgKqUyLvM600AnEtQAc/preview?pru=AAABev1G8CA*h5IEgpe8IQDiljmitAdGVQ#)

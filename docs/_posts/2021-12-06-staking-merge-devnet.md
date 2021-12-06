@@ -2,7 +2,7 @@
 layout: post
 title:  "Configurer une node de test merge eth2"
 date:   2021-12-06 01:00:00 +0200
-categories: ethereum node
+categories: ethereum node docker
 ---
 
 ![](https://github.com/sznicolas/protoSvgLib/raw/main/img/logoEth.svg){: width="64" }
@@ -13,6 +13,7 @@ Tester le merge avec Linux (Ubuntu) et Docker.
 * Metamask avec une adresse de test, inutilisée sur le mainnet.
 Attention ; il se peut que cela ne fonctionne pas sous Windows et Mac à cause de l'option docker-compose `network_mode: host`. Non testé.   
 Cf [Documentation Docker](https://docs.docker.com/network/host/) 
+
 # Installer docker + docker-compose
 <details markdown="1">
 <summary>Détails...</summary>

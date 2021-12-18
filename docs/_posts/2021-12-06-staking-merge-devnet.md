@@ -11,7 +11,8 @@ Tester le merge avec Linux (Ubuntu) et Docker.
 # Prérequis 
 * Une machine juste décente, <1Go d'espace disque
 * Metamask avec une adresse de test, inutilisée sur le mainnet.
-Attention ; il se peut que cela ne fonctionne pas sous Windows et Mac à cause de l'option docker-compose `network_mode: host`. Non testé.   
+
+Attention ; il se peut que le lancement de docker-compose ne fonctionne pas sous Windows et Mac à cause de l'option docker-compose `network_mode: host`. Non testé.   
 Cf [Documentation Docker](https://docs.docker.com/network/host/) 
 
 # Installer docker + docker-compose
